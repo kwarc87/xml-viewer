@@ -1,7 +1,7 @@
 (function (global) {
     'use strict';
 
-    class xmlParserPlugin {
+    class xmlViewerPlugin {
         constructor(containerId, url, numberOfNodesToShow) {
             this.containerId = containerId;
             this.container = document.getElementById(this.containerId);
@@ -195,6 +195,6 @@
 
     }
 
-    global.xmlParserPlugin = xmlParserPlugin;
+    global.xmlViewerPlugin = xmlViewerPlugin;
 
 }(window));

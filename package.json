@@ -1,6 +1,10 @@
 {
-  "name": "XML viewer",
+  "name": "xml-viewer",
   "version": "1.0.0",
+  "scripts": {
+    "start": "grunt serve",
+    "build": "grunt build"
+  },
   "description": "Plugin for preview XML files",
   "devDependencies": {
     "grunt": "^1.0.4",
